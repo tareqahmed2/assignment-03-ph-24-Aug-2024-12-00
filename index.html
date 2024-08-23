@@ -35,14 +35,21 @@
             },
         };
     </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body class="font-manrope">
     <!-- header start -->
-    <header class="w-11/12 mx-auto bg-gradient-to-b from-white to-transparent">
-        <nav class="py-6 md:py-12">
+    <header class="w-11/12 mx-auto  bg-gradient-to-b from-white to-transparent px-0">
+        <nav class="py-6 px-0 mx-0 md:py-12">
             <div class="navbar flex items-center justify-between">
-                <div class="navbar-start flex flex-row-reverse md:flex-row w-full md:w-1/3 justify-between md:justify-start">
+                <div class="navbar-start flex  flex-row-reverse md:flex-row w-full md:w-1/3 justify-between md:justify-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -54,7 +61,7 @@
                   />
                 </svg>
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow right-0">
+                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-0 shadow right-0">
                             <li class="text-[16px] text-[ rgb(73, 73, 73);]">
                                 <a class="text-center">Home</a>
                             </li>
@@ -68,11 +75,11 @@
                                 <a class="text-clip">Blogs</a>
                             </li>
                             <li class="text-[16px] text-[ rgb(73, 73, 73);]">
-                                <a class="text-center">Contact us</a>
+                                <a class="text-center">Contact Us</a>
                             </li>
                         </ul>
                     </div>
-                    <a class="text-[28px] flex items-center md:text-[32px] font-extrabold text-[color: rgb(33, 33, 33)] cursor-pointer"><span class="text-center p-2.5 rounded-full bg-[#ABEF5F] "
+                    <a class="text-[28px] flex items-center md:text-[32px] font-extrabold text-[color: rgb(33, 33, 33)] cursor-pointer"><span class="text-center p-2 rounded-full bg-[#ABEF5F] "
                 ><svg
                   width="13.505859"
                   height="13.500488"
@@ -122,12 +129,12 @@
                         <a class="text-center hover:bg-transparent">Blogs</a>
                     </li>
                     <li class="text-[16px] text-[ rgb(73, 73, 73)]">
-                        <a class="text-center hover:bg-transparent">Contact us</a>
+                        <a class="text-center hover:bg-transparent">Contact Us</a>
                     </li>
                     </ul>
                 </div>
-                <div class="hidden md:block navbar-end md:flex justify-end gap-6">
-                    <div class="flex gap-6">
+                <div class="hidden md:block navbar-end md:flex justify-end gap-2">
+                    <div class="flex gap-2">
                         <div>
                             <span class="bg-slate-100 py-3 px-3.5 rounded-full cursor-pointer">
                   <i class="fa-solid fa-magnifying-glass"></i>
@@ -140,7 +147,7 @@
                         </div>
                     </div>
                     <div class="flex">
-                        <a class="btn text-[20px] font-extrabold text-[color: rgb(33, 33, 33)] bg-[#ABEF5F] rounded-full">
+                        <a class="btn text-[20px] font-extrabold text-[color: rgb(33, 33, 33)] bg-[#ABEF5F] rounded-full abc">
                 Book Consult
                 <span
                   class="text-center p-2.5 rounded-full bg-[#1C1C1C] text-white"
@@ -178,7 +185,7 @@
                 </div>
             </div>
         </nav>
-        <div class="hero bg-base-200 bg-transparent pt-10 md:mb-[120px]">
+        <div class="hero bg-transparent pt-10 md:mb-[120px]">
             <div class="hero-content flex-col items-center gap-6">
                 <img src="assets/banner.png" />
                 <div class="flex flex-col md:items-center gap-7">
@@ -232,7 +239,7 @@
         <section class="bg-[rgb(30, 30, 30)]">
             <div class="w-11/12 mx-auto mb-[32px] pt-[72px] md:pt-[100px] md:mb-[114px]">
                 <div class="hero">
-                    <div class="hero-content flex-col-reverse md:flex-col lg:flex-row-reverse items-end md:items-center justify-between gap-6 md:gap-12">
+                    <div class="hero-content flex-col-reverse md:flex-col lg:flex-row-reverse items-end md:items-center justify-between gap-5 md:gap-12">
                         <div>
                             <img src="assets/Rectangle.png" class="w-full rounded-lg shadow-2xl" />
                         </div>
@@ -302,12 +309,12 @@
                 </div>
             </div>
         </section>
-        <!-- here was a section if i have time i will do it -->
-        <section></section>
+
         <!-- our work process section  -->
         <section>
+
             <div class="w-11/12 mx-auto mb-[32px] md:mb-[100px]">
-                <div class="hero min-h-screen">
+                <div class="hero">
                     <div class="hero-content flex flex-col text-center">
                         <div class="max-w-md">
                             <!-- how are you button -->
@@ -380,8 +387,9 @@
                                     The supervision process captivates with its blend of oversight and keen guidance.
                                 </p>
                             </div>
+
                             <!-- card4 -->
-                            <div class="bg-[#77AAEA] p-6 text-left rounded-lg">
+                            <div class="bg-[#77AAEA]  p-6 text-left rounded-lg">
                                 <img class="mb-[10px]" src="assets/budget-planning.png" alt="" />
                                 <h3 class="mb-[10px] font-extrabold text-[20px]">
                                     Budget Planning
@@ -395,9 +403,196 @@
                 </div>
             </div>
         </section>
-        <!-- read our article section optional -->
 
-        <section></section>
+
+        <!-- read our article section optional -->
+        <!-- portfolio section -->
+
+        <section class="">
+            <div class="pb-[32px] md:pb-[100px]">
+                <div class="hero">
+                    <div class="hero-content flex-col items-center w-full md:w-11/12">
+                        <div class="text-center lg:text-left">
+                            <!-- discuss top -->
+                            <div class="flex flex-col items-center w-3/4 mx-auto">
+                                <!-- discuss button
+                            -->
+                                <div class="flex items-center gap-4 justify-center mb-8 p-2 w-10/12 md:w-1/2 mx-auto rounded-full bg-[#ABEF5F33] bg-opacity-20 cursor-pointer">
+                                    <span><svg
+                        width="17.747192 "
+                        height="16.970703 "
+                        viewBox="0 0 17.7472 16.9707 "
+                        fill="none "
+                        xmlns="http://www.w3.org/2000/svg "
+                        xmlns:xlink="http://www.w3.org/1999/xlink "
+                      >
+                        <desc>Created with Pixso.</desc>
+                        <defs />
+                        <path
+                          id="Vector "
+                          d="M16.3 8.48L0.75 8.48 "
+                          stroke="#494949 "
+                          stroke-opacity="1.000000 "
+                          stroke-width="1.500000 "
+                          stroke-linecap="round "
+                        />
+                        <path
+                          id="Vector "
+                          d="M12.67 3.62C12.67 3.62 16.99 7.27 16.99 8.48C16.99 9.69 12.67 13.34 12.67 13.34 "
+                          stroke="#494949 "
+                          stroke-opacity="1.000000 "
+                          stroke-width="1.500000 "
+                          stroke-linejoin="round "
+                          stroke-linecap="round "
+                        />
+                      </svg>
+                    </span>
+                                    <h4 class="font-bold cursor-pointer">Explore our Latest works</h4>
+                                </div>
+                                <h1 class="text-[24px] md:text-[40px] font-bold text-center">
+                                    Our Latest Portfolio
+
+                                </h1>
+                                <p class="py-6 text-center">
+                                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="hero">
+                    <!-- card -->
+                    <div class="hero-content w-full grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12  items-start">
+                        <!-- card1 -->
+                        <div class="bg-base-100 shadow-xl p-6 flex flex-col md:flex-row  md:items-start justify-center  md:col-span-8 rounded-2xl w-full md:h-[227px] order-1">
+                            <figure class="flex-1 w-full">
+                                <img src="assets/img1.png" alt="Shoes" class="rounded-xl w-full md:w-[270px]" />
+                            </figure>
+                            <div class="card-body items-center md:items-start justify-center text-center md:text-start flex-1 p-0">
+                                <h2 class="card-title">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                                <!-- button -->
+                                <div class="card-actions">
+                                    <a class="btn text-[20px] w-full font-extrabold text-[color: rgb(33, 33, 33)] rounded-full bg-transparent border-none shadow-none p-0 hover:bg-base-100">
+                                        View Details
+                                        <span class="text-center p-2.5 rounded-full bg-[#ABEF5F]"
+                                          ><svg
+                                            width="13.505859"
+                                            height="13.500488"
+                                            viewBox="0 0 13.5059 13.5005"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                          >
+                                            <desc>Created with Pixso.</desc>
+                                            <defs />
+                                            <path
+                                              id="Vector"
+                                              d="M11.75 1.75L0.75 12.74"
+                                              stroke="#1C1C1C"
+                                              stroke-opacity="1.000000"
+                                              stroke-width="1.500000"
+                                              stroke-linecap="round"
+                                            />
+                                            <path
+                                              id="Vector"
+                                              d="M5.75 0.88C5.75 0.88 11.39 0.4 12.24 1.26C13.1 2.11 12.62 7.75 12.62 7.75"
+                                              stroke="#1C1C1C"
+                                              stroke-opacity="1.000000"
+                                              stroke-width="1.500000"
+                                              stroke-linejoin="round"
+                                              stroke-linecap="round"
+                                            />
+                                          </svg> </span
+                                      ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card2 -->
+                        <div class="bg-base-100 shadow-xl p-6 md:p-[22px] flex flex-row md:col-span-4 md:h-[227px] items-center rounded-2xl order-2">
+                            <figure class="w-full">
+                                <img src="assets/img2.png" alt="Shoes" class="rounded-xl w-full" />
+                            </figure>
+
+                        </div>
+                        <!-- card3 -->
+                        <div class=" bg-base-100 shadow-xl p-6 flex flex-row items-center rounded-2xl md:col-span-3 md:h-[227px] order-5 md:order-3">
+                            <figure class="w-full">
+                                <img src="assets/img3.png" alt="Shoes" class="rounded-xl w-full" />
+                            </figure>
+
+                        </div>
+                        <!-- card 5 double  -->
+                        <div class="bg-base-100 shadow-xl p-6 flex flex-row md:col-span-3 items-center w-full md:h-[227px] order-3 rounded-2xl md:hidden lg:hidden">
+                            <figure class="w-full">
+                                <img src="assets/img5.png" alt="Shoes" class="rounded-xl w-full" />
+                            </figure>
+
+                        </div>
+                        <!-- card4 -->
+                        <div class="card bg-base-100 shadow-xl p-6 flex flex-c
+                        ol md:flex-row md:col-span-6 w w-full md:h-[227px] items-center order-4 md:order-4">
+                            <figure class="flex-1 w-full ">
+                                <img src="assets/img4.png" alt="Shoes" class="rounded-xl w-full" />
+                            </figure>
+                            <div class="card-body items-center md:items-start text-center md:text-start flex-1">
+                                <h2 class="card-title">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                                <!-- button -->
+                                <div class="card-actions">
+                                    <a class="btn text-[20px] w-full font-extrabold text-[color: rgb(33, 33, 33)] rounded-full bg-transparent border-none shadow-none p-0 hover:bg-base-100">
+                                        View Details
+                                        <span class="text-center p-2.5 rounded-full bg-[#ABEF5F]"
+                                          ><svg
+                                            width="13.505859"
+                                            height="13.500488"
+                                            viewBox="0 0 13.5059 13.5005"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                          >
+                                            <desc>Created with Pixso.</desc>
+                                            <defs />
+                                            <path
+                                              id="Vector"
+                                              d="M11.75 1.75L0.75 12.74"
+                                              stroke="#1C1C1C"
+                                              stroke-opacity="1.000000"
+                                              stroke-width="1.500000"
+                                              stroke-linecap="round"
+                                            />
+                                            <path
+                                              id="Vector"
+                                              d="M5.75 0.88C5.75 0.88 11.39 0.4 12.24 1.26C13.1 2.11 12.62 7.75 12.62 7.75"
+                                              stroke="#1C1C1C"
+                                              stroke-opacity="1.000000"
+                                              stroke-width="1.500000"
+                                              stroke-linejoin="round"
+                                              stroke-linecap="round"
+                                            />
+                                          </svg> </span
+                                      ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card5 -->
+                        <div class=" bg-base-100 shadow-xl p-6 flex flex-row md:col-span-3 items-center w-full md:h-[227px] rounded-2xl order-6">
+                            <figure class="w-full">
+                                <img src="assets/img5.png" alt="Shoes" class="rounded-xl w-full" />
+                            </figure>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
         <!-- let's discuss section start here -->
         <section class="bg-custom bg-no-repeat bg-cover bg-center">
             <div class="py-[32px] md:py-[100px]">
