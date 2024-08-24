@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
 
     <!-- for customrize tailwind class -->
     <script>
@@ -64,21 +65,21 @@
                   />
                 </svg>
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-0 shadow right-0">
-                            <li class="text-[16px] text-[ rgb(73, 73, 73);]">
+                        <ul tabindex="0" id="navbar-ul" class="menu menu-lg dropdown-content  bg-base-100 rounded-box z-[1] mt-3 p-0 shadow right-0 w-[150px]">
+                            <li class="text-[16px]  text-[rgb(73, 73, 73)]">
                                 <a class="text-center">Home</a>
                             </li>
-                            <li class="text-[16px] text-[ rgb(73, 73, 73);]">
+                            <li class="text-[16px] text-[rgb(73, 73, 73)]">
                                 <a class="text-center">Services</a>
                             </li>
-                            <li class="text-[16px] text-[ rgb(73, 73, 73);]">
+                            <li class="text-[16px] text-[rgb(73, 73, 73)]">
                                 <a class="text-center">Portfolio</a>
                             </li>
-                            <li class="text-[16px] text-[ rgb(73, 73, 73);]">
+                            <li class="text-[16px] text-[rgb(73, 73, 73)]">
                                 <a class="text-clip">Blogs</a>
                             </li>
-                            <li class="text-[16px] text-[ rgb(73, 73, 73);]">
-                                <a class="text-center">Contact Us</a>
+                            <li class="text-[16px]  text-[rgb(73, 73, 73)]">
+                                <a class="text-[16px] text-left">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -461,7 +462,7 @@
 
                                 <div class="card bg-base-100  shadow-xl">
                                     <figure>
-                                        <img src="assets/norman.jpeg" alt="norman fooster" class="h-[150px] w-full" />
+                                        <img src="assets/norman.jpeg" alt="norman fooster" class="h-[150px] w-full object-cover" />
                                     </figure>
                                     <div class="card-body">
                                         <h2 class="card-title">Norman Foster</h2>
@@ -475,7 +476,7 @@
 
                                 <div class="card bg-base-100  shadow-xl">
                                     <figure>
-                                        <img src="assets/santiago2jpeg.jpeg" alt="norman fooster" class="h-[150px] w-full" />
+                                        <img src="assets/santiago2jpeg.jpeg" alt="norman fooster" class="h-[150px] w-full object-cover" />
 
                                     </figure>
                                     <div class="card-body">
@@ -489,7 +490,7 @@
                                 <!-- card 3 -->
                                 <div class="card bg-base-100  shadow-xl">
                                     <figure>
-                                        <img src="assets/barbar.jpeg" alt="norman fooster" class="h-[150px] w-full" />
+                                        <img src="assets/barbar.jpeg" alt="norman fooster" class="h-[150px] w-full object-cover" />
 
                                     </figure>
                                     <div class="card-body">
@@ -503,7 +504,7 @@
                                 <!-- card 4 -->
                                 <div class="card bg-base-100  shadow-xl">
                                     <figure>
-                                        <img src="assets/leslie.jpg" alt="norman fooster" class="h-[150px] w-full" />
+                                        <img src="assets/leslie.jpg" alt="norman fooster" class="h-[150px] w-full object-cover" />
 
                                     </figure>
                                     <div class="card-body">
@@ -563,7 +564,7 @@
                         />
                       </svg>
                     </span>
-                                    <h4 class="font-bold cursor-pointer">Explore our Latest works</h4>
+                                    <h4 id="explore" class="font-bold cursor-pointer ">Explore our Latest works</h4>
                                 </div>
                                 <h1 class="text-[24px] md:text-[40px] font-bold text-center">
                                     Our Latest Portfolio
