@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <!-- daisyui and tailwind cdn -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/fav-icon.png" type="image/x-icon" />
+
+    <!-- for customrize tailwind class -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              manrope: "Manrope",
+            },
+            backgroundImage: {
+              custom: "url('/assets/bg.jpg')",
+              workBg: "url('assets/all_workers.jpg')",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      Norman Foster is a renowned British architect, born in 1935, known for his
+      innovative and sustainable designs that have shaped modern architecture.
+      He founded Foster + Partners, a global architecture firm, in 1967.
+      Foster's notable works include the Gherkin in London, the Millau Viaduct
+      in France, and the Reichstag in Berlin. His designs often incorporate
+      high-tech elements and a deep commitment to environmental sustainability.
+      Foster has been awarded numerous accolades, including the prestigious
+      Pritzker Architecture Prize. His work continues to influence contemporary
+      architecture, blending aesthetics with functionality and sustainability.
+    </p>
+    <a class="btn btn-neutral" href="index.html">For Home page..</a>
+  </body>
+</html>
